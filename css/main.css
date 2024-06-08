@@ -1,0 +1,1318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.container .wrapper {
+  width: 100%;
+  max-width: 1440px;
+  height: 900px;
+  background: #fff;
+  display: flex;
+}
+.container .wrapper .left {
+  width: 100%;
+  max-width: 483px;
+  height: 900px;
+  background-image: url(../images/left\ background.png);
+  padding-top: 187px;
+}
+.container .wrapper .left .card {
+  width: 100%;
+  max-width: 541px;
+  height: 527px;
+  margin-left: 164px;
+}
+.container .wrapper .left .card .card1 {
+  width: 100%;
+  max-width: 447px;
+  height: 245px;
+  background-image: url(../images/card\ 1\ image.svg);
+  padding-left: 32px;
+  margin-bottom: 37px;
+}
+.container .wrapper .left .card .card1 img {
+  width: 100%;
+  max-width: 84px;
+  height: 47px;
+  margin-top: 28px;
+  margin-bottom: 64px;
+}
+.container .wrapper .left .card .card1 .number {
+  width: 100%;
+  max-width: 372px;
+  height: 36px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35.73px;
+  letter-spacing: 3.4222221375px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 25.5px;
+}
+.container .wrapper .left .card .card1 .card1-bottom {
+  width: 100%;
+  max-width: 383.14px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .wrapper .left .card .card1 .card1-bottom p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.86px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.container .wrapper .left .card .card2 {
+  width: 100%;
+  max-width: 447px;
+  height: 245px;
+  background-image: url(../images/card\ 2\ image.png);
+  margin-left: 94px;
+}
+.container .wrapper .left .card .card2 img {
+  margin-top: 172px;
+  margin-left: 132px;
+}
+.container .wrapper .right {
+  width: 100%;
+  max-width: 381px;
+  height: 352px;
+  margin-left: 349px;
+  margin-top: 275px;
+}
+.container .wrapper .right .input1 {
+  width: 100%;
+  max-width: 381px;
+  height: 69px;
+  margin-bottom: 26px;
+}
+.container .wrapper .right .input1 p {
+  width: 100%;
+  max-width: 180px;
+  height: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.31px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgb(33, 9, 47);
+  margin-bottom: 9px;
+}
+.container .wrapper .right .input1 input {
+  width: 100%;
+  max-width: 381px;
+  height: 45px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  color: rgb(33, 9, 47);
+  border: 1px solid rgb(223, 222, 224);
+  border-radius: 8px;
+  padding-left: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container .wrapper .right .input1 input:hover {
+  border: 1px solid rgb(99, 72, 254);
+}
+.container .wrapper .right .input1 input::-moz-placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 25%;
+  color: rgb(33, 9, 47);
+}
+.container .wrapper .right .input1 input::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 25%;
+  color: rgb(33, 9, 47);
+}
+.container .wrapper .right .input2 {
+  width: 100%;
+  max-width: 381px;
+  height: 69px;
+  margin-bottom: 26px;
+}
+.container .wrapper .right .input2 p {
+  width: 100%;
+  max-width: 180px;
+  height: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.31px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgb(33, 9, 47);
+  margin-bottom: 9px;
+}
+.container .wrapper .right .input2 input {
+  width: 100%;
+  max-width: 381px;
+  height: 45px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  color: rgb(33, 9, 47);
+  border: 1px solid rgb(223, 222, 224);
+  border-radius: 8px;
+  padding-left: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container .wrapper .right .input2 input:hover {
+  border: 1px solid rgb(99, 72, 254);
+}
+.container .wrapper .right .input2 input::-moz-placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 25%;
+  color: rgb(33, 9, 47);
+}
+.container .wrapper .right .input2 input::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 25%;
+  color: rgb(33, 9, 47);
+}
+.container .wrapper .right .inputs-3 {
+  width: 100%;
+  max-width: 381px;
+  height: 69px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .wrapper .right .inputs-3 .input3-1 {
+  width: 100%;
+  max-width: 170px;
+  height: 69px;
+}
+.container .wrapper .right .inputs-3 .input3-1 p {
+  width: 100%;
+  max-width: 150px;
+  height: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.31px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgb(33, 9, 47);
+  margin-bottom: 9px;
+}
+.container .wrapper .right .inputs-3 .input3-1 input {
+  width: 100%;
+  max-width: 80px;
+  height: 45px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  color: rgb(33, 9, 47);
+  border: 1px solid rgb(223, 222, 224);
+  border-radius: 8px;
+  padding-left: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container .wrapper .right .inputs-3 .input3-1 input:hover {
+  border: 1px solid rgb(99, 72, 254);
+}
+.container .wrapper .right .inputs-3 .input3-1 input::-moz-placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 25%;
+  color: rgb(33, 9, 47);
+}
+.container .wrapper .right .inputs-3 .input3-1 input::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 25%;
+  color: rgb(33, 9, 47);
+}
+.container .wrapper .right .inputs-3 .inputs3-2 {
+  width: 100%;
+  max-width: 191px;
+  height: 69px;
+}
+.container .wrapper .right .inputs-3 .inputs3-2 p {
+  width: 100%;
+  max-width: 40px;
+  height: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.31px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgb(33, 9, 47);
+  margin-bottom: 9px;
+}
+.container .wrapper .right .inputs-3 .inputs3-2 input {
+  width: 100%;
+  max-width: 191px;
+  height: 45px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  color: rgb(33, 9, 47);
+  border: 1px solid rgb(223, 222, 224);
+  border-radius: 8px;
+  padding-left: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container .wrapper .right .inputs-3 .inputs3-2 input:hover {
+  border: 1px solid rgb(99, 72, 254);
+}
+.container .wrapper .right .inputs-3 .inputs3-2 input::-moz-placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 25%;
+  color: rgb(33, 9, 47);
+}
+.container .wrapper .right .inputs-3 .inputs3-2 input::placeholder {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 25%;
+  color: rgb(33, 9, 47);
+}
+.container .wrapper .right button {
+  width: 100%;
+  max-width: 381px;
+  height: 53px;
+  border: none;
+  outline: none;
+  background: rgb(33, 9, 47);
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1160px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #f2f2f2;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  .container .wrapper {
+    width: 100%;
+    max-width: 1440px;
+    height: 900px;
+    background: #fff;
+    display: flex;
+  }
+  .container .wrapper .left {
+    width: 100%;
+    max-width: 483px;
+    height: 900px;
+    background-image: url(../images/left\ background.png);
+    padding-top: 187px;
+  }
+  .container .wrapper .left .card {
+    width: 100%;
+    max-width: 541px;
+    height: 527px;
+    margin-left: 64px;
+  }
+  .container .wrapper .left .card .card1 {
+    width: 100%;
+    max-width: 447px;
+    height: 245px;
+    background-image: url(../images/card\ 1\ image.svg);
+    padding-left: 32px;
+    margin-bottom: 37px;
+  }
+  .container .wrapper .left .card .card1 img {
+    width: 100%;
+    max-width: 84px;
+    height: 47px;
+    margin-top: 28px;
+    margin-bottom: 64px;
+  }
+  .container .wrapper .left .card .card1 .number {
+    width: 100%;
+    max-width: 372px;
+    height: 36px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35.73px;
+    letter-spacing: 3.4222221375px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 25.5px;
+  }
+  .container .wrapper .left .card .card1 .card1-bottom {
+    width: 100%;
+    max-width: 383.14px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container .wrapper .left .card .card1 .card1-bottom p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+  .container .wrapper .left .card .card2 {
+    width: 100%;
+    max-width: 447px;
+    height: 245px;
+    background-image: url(../images/card\ 2\ image.png);
+    margin-left: 94px;
+  }
+  .container .wrapper .left .card .card2 img {
+    margin-top: 172px;
+    margin-left: 100px;
+  }
+  .container .wrapper .right {
+    width: 100%;
+    max-width: 381px;
+    height: 352px;
+    margin-left: 149px;
+    margin-top: 275px;
+  }
+  .container .wrapper .right .input1 {
+    width: 100%;
+    max-width: 381px;
+    height: 69px;
+    margin-bottom: 26px;
+  }
+  .container .wrapper .right .input1 p {
+    width: 100%;
+    max-width: 180px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .input1 input {
+    width: 100%;
+    max-width: 381px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .input1 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .input1 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .input1 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .input2 {
+    width: 100%;
+    max-width: 381px;
+    height: 69px;
+    margin-bottom: 26px;
+  }
+  .container .wrapper .right .input2 p {
+    width: 100%;
+    max-width: 180px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .input2 input {
+    width: 100%;
+    max-width: 381px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .input2 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .input2 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .input2 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 {
+    width: 100%;
+    max-width: 381px;
+    height: 69px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 {
+    width: 100%;
+    max-width: 170px;
+    height: 69px;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 p {
+    width: 100%;
+    max-width: 150px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input {
+    width: 100%;
+    max-width: 80px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 {
+    width: 100%;
+    max-width: 191px;
+    height: 69px;
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 p {
+    width: 100%;
+    max-width: 40px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input {
+    width: 100%;
+    max-width: 191px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right button {
+    width: 100%;
+    max-width: 381px;
+    height: 53px;
+    border: none;
+    outline: none;
+    background: rgb(33, 9, 47);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #f2f2f2;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  .container .wrapper {
+    width: 100%;
+    max-width: 1440px;
+    height: 900px;
+    background: #fff;
+    display: flex;
+  }
+  .container .wrapper .left {
+    width: 100%;
+    max-width: 483px;
+    height: 900px;
+    background-image: url(../images/left\ background.png);
+    padding-top: 187px;
+  }
+  .container .wrapper .left .card {
+    width: 100%;
+    max-width: 541px;
+    height: 527px;
+    margin-left: 15px;
+  }
+  .container .wrapper .left .card .card1 {
+    width: 100%;
+    max-width: 447px;
+    height: 245px;
+    background-image: url(../images/card\ 1\ image.svg);
+    padding-left: 32px;
+    margin-bottom: 37px;
+  }
+  .container .wrapper .left .card .card1 img {
+    width: 100%;
+    max-width: 84px;
+    height: 47px;
+    margin-top: 28px;
+    margin-bottom: 64px;
+  }
+  .container .wrapper .left .card .card1 .number {
+    width: 100%;
+    max-width: 372px;
+    height: 36px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35.73px;
+    letter-spacing: 3.4222221375px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 25.5px;
+  }
+  .container .wrapper .left .card .card1 .card1-bottom {
+    width: 100%;
+    max-width: 383.14px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container .wrapper .left .card .card1 .card1-bottom p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+  .container .wrapper .left .card .card2 {
+    width: 100%;
+    max-width: 447px;
+    height: 245px;
+    background-image: url(../images/card\ 2\ image.png);
+    margin-left: 0px;
+  }
+  .container .wrapper .left .card .card2 img {
+    margin-top: 172px;
+    margin-left: 100px;
+  }
+  .container .wrapper .right {
+    width: 100%;
+    max-width: 381px;
+    height: 352px;
+    margin-left: 10px;
+    margin-top: 275px;
+  }
+  .container .wrapper .right .input1 {
+    width: 100%;
+    max-width: 381px;
+    height: 69px;
+    margin-bottom: 26px;
+  }
+  .container .wrapper .right .input1 p {
+    width: 100%;
+    max-width: 180px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .input1 input {
+    width: 100%;
+    max-width: 381px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .input1 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .input1 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .input1 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .input2 {
+    width: 100%;
+    max-width: 381px;
+    height: 69px;
+    margin-bottom: 26px;
+  }
+  .container .wrapper .right .input2 p {
+    width: 100%;
+    max-width: 180px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .input2 input {
+    width: 100%;
+    max-width: 381px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .input2 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .input2 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .input2 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 {
+    width: 100%;
+    max-width: 381px;
+    height: 69px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 {
+    width: 100%;
+    max-width: 170px;
+    height: 69px;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 p {
+    width: 100%;
+    max-width: 150px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input {
+    width: 100%;
+    max-width: 80px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 {
+    width: 100%;
+    max-width: 191px;
+    height: 69px;
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 p {
+    width: 100%;
+    max-width: 40px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input {
+    width: 100%;
+    max-width: 191px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right button {
+    width: 100%;
+    max-width: 381px;
+    height: 53px;
+    border: none;
+    outline: none;
+    background: rgb(33, 9, 47);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 860px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #f2f2f2;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  .container .wrapper {
+    width: 100%;
+    max-width: 860px;
+    height: 900px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .wrapper .left {
+    width: 100%;
+    max-width: 860px;
+    height: 240px;
+    background-image: url(../images/left\ background.png);
+    padding-top: 10px;
+    background-size: cover;
+  }
+  .container .wrapper .left .card {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 541px;
+    height: 427px;
+    position: relative;
+  }
+  .container .wrapper .left .card .card1 {
+    width: 100%;
+    max-width: 447px;
+    height: 245px;
+    background-image: url(../images/card\ 1\ image.svg);
+    padding-left: 20px;
+    margin-bottom: 37px;
+    z-index: 1;
+    position: absolute;
+    top: 95px;
+  }
+  .container .wrapper .left .card .card1 img {
+    width: 100%;
+    max-width: 84px;
+    height: 47px;
+    margin-top: 28px;
+    margin-bottom: 64px;
+  }
+  .container .wrapper .left .card .card1 .number {
+    width: 100%;
+    max-width: 372px;
+    height: 36px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35.73px;
+    letter-spacing: 3.4222221375px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 25.5px;
+  }
+  .container .wrapper .left .card .card1 .card1-bottom {
+    width: 100%;
+    max-width: 383.14px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container .wrapper .left .card .card1 .card1-bottom p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+  .container .wrapper .left .card .card2 {
+    width: 100%;
+    max-width: 447px;
+    height: 245px;
+    background-image: url(../images/card\ 2\ image.png);
+    margin-left: 0px;
+    position: absolute;
+    left: 57px;
+  }
+  .container .wrapper .left .card .card2 img {
+    margin-top: 172px;
+    margin-left: 100px;
+  }
+  .container .wrapper .right {
+    width: 100%;
+    max-width: 381px;
+    height: 352px;
+    margin: 0 auto;
+    margin-top: 191px;
+  }
+  .container .wrapper .right .input1 {
+    width: 100%;
+    max-width: 381px;
+    height: 69px;
+    margin-bottom: 26px;
+  }
+  .container .wrapper .right .input1 p {
+    width: 100%;
+    max-width: 180px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .input1 input {
+    width: 100%;
+    max-width: 381px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .input1 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .input1 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .input1 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .input2 {
+    width: 100%;
+    max-width: 381px;
+    height: 69px;
+    margin-bottom: 26px;
+  }
+  .container .wrapper .right .input2 p {
+    width: 100%;
+    max-width: 180px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .input2 input {
+    width: 100%;
+    max-width: 381px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .input2 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .input2 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .input2 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 {
+    width: 100%;
+    max-width: 381px;
+    height: 69px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 {
+    width: 100%;
+    max-width: 170px;
+    height: 69px;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 p {
+    width: 100%;
+    max-width: 150px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input {
+    width: 100%;
+    max-width: 80px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 .input3-1 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 {
+    width: 100%;
+    max-width: 191px;
+    height: 69px;
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 p {
+    width: 100%;
+    max-width: 40px;
+    height: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgb(33, 9, 47);
+    margin-bottom: 9px;
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input {
+    width: 100%;
+    max-width: 191px;
+    height: 45px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    color: rgb(33, 9, 47);
+    border: 1px solid rgb(223, 222, 224);
+    border-radius: 8px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input:hover {
+    border: 1px solid rgb(99, 72, 254);
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input::-moz-placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right .inputs-3 .inputs3-2 input::placeholder {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 25%;
+    color: rgb(33, 9, 47);
+  }
+  .container .wrapper .right button {
+    width: 100%;
+    max-width: 381px;
+    height: 53px;
+    border: none;
+    outline: none;
+    background: rgb(33, 9, 47);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */

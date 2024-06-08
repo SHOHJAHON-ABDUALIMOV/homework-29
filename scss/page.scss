@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f2f2;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  .wrapper {
+    width: 100%;
+    max-width: 1440px;
+    height: 900px;
+    background: #fff;
+    display: flex;
+    .left {
+      width: 100%;
+      max-width: 483px;
+      height: 900px;
+      background-image: url(../images/left\ background.png);
+
+      padding-top: 187px;
+      .card {
+        width: 100%;
+        max-width: 541px;
+        height: 527px;
+        margin-left: 164px;
+        .card1 {
+          width: 100%;
+          max-width: 447px;
+          height: 245px;
+          background-image: url(../images/card\ 1\ image.svg);
+          padding-left: 32px;
+          margin-bottom: 37px;
+          img {
+            width: 100%;
+            max-width: 84px;
+            height: 47px;
+            margin-top: 28px;
+            margin-bottom: 64px;
+          }
+          .number {
+            width: 100%;
+            max-width: 372px;
+            height: 36px;
+            font-family: "Space Grotesk", sans-serif;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 35.73px;
+            letter-spacing: 3.422222137451172px;
+            text-align: left;
+            color: #fff;
+            margin-bottom: 25.5px;
+          }
+          .card1-bottom {
+            width: 100%;
+            max-width: 383.14px;
+            height: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+              font-family: "Space Grotesk", sans-serif;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 17.86px;
+              letter-spacing: 2px;
+              color: #fff;
+            }
+          }
+        }
+        .card2 {
+          width: 100%;
+          max-width: 447px;
+          height: 245px;
+          background-image: url(../images/card\ 2\ image.png);
+          margin-left: 94px;
+          img {
+            margin-top: 172px;
+            margin-left: 132px;
+          }
+        }
+      }
+    }
+    .right {
+      width: 100%;
+      max-width: 381px;
+      height: 291px;
+      margin-top: 305px;
+      margin-left: 349px;
+      svg {
+        margin-left: 151px;
+        margin-bottom: 35px;
+      }
+      .right-bottom {
+        width: 100%;
+        max-width: 381px;
+        height: 176px;
+        p {
+          width: 100%;
+          max-width: 381px;
+          height: 36px;
+          font-family: "Space Grotesk", sans-serif;
+          font-size: 28px;
+          font-weight: 500;
+          line-height: 35.73px;
+          letter-spacing: 3.422222137451172px;
+          text-align: center;
+          color: rgba(33, 9, 47, 1);
+          margin-bottom: 16px;
+        }
+        span {
+          width: 100%;
+          max-width: 263px;
+          height: 23px;
+          font-family: "Space Grotesk", sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 22.97px;
+          text-align: center;
+          color: rgba(143, 134, 148, 1);
+          margin-left: 59px;
+        }
+        button {
+          margin-top: 48px;
+          width: 100%;
+          max-width: 381px;
+          height: 53px;
+          background: rgba(33, 9, 47, 1);
+          border-radius: 8px;
+          color: #fff;
+          font-family: "Space Grotesk", sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 22.97px;
+        }
+      }
+    }
+  }
+}
